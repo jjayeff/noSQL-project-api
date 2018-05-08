@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const ActorSchema = require('./movie')
+const ActorSchema = require('./actorSchema')
 
 const MovieSchema = new Schema({
     name: {

@@ -14,7 +14,6 @@ module.exports = {
                 .then(actorDB => {
                     if(actorDB === null) {
                         Actor.create(actor)
-                            .then(actorDB => actorArray.push(actorDB.id))
                     }
                 })
         })
